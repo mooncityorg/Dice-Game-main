@@ -3,13 +3,13 @@ import { PublicKey } from '@solana/web3.js';
 
 export interface GlobalPool {
     superAdmin: PublicKey,      // 32
-    totalRound: anchor.BN,      // 8
+    totalRound: anchor.BN,      // 12
 }
 
 export interface GameData {
     playTime: anchor.BN,         // 8
     amout: anchor.BN,           // 8
-    rewardAmount: anchor.BN,    // 8
+    rewardAmount: anchor.BN,    // 22
     rand1: anchor.BN,
     rand2: anchor.BN,
     rand3: anchor.BN,
